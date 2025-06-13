@@ -105,12 +105,12 @@ export const education = [
 export const projects = [
   {
     id: 1,
-    name: "DeFi Yield Optimizer",
-    description: "A smart contract platform that automatically optimizes yield farming strategies across multiple protocols.",
-    techStack: ["Solidity", "React", "Web3.js", "Node.js"],
+    name: "Nebula DAO",
+    description: "project bringing smooth, minimal, and efficient on-chain governance to life.Built with a modern tech stack & powered by on-chain voting using ERC20Votes!",
+    techStack: ['React', 'Typescript', 'Tailwind CSS', 'Next JS', 'Solidity', 'Ether JS'],
     liveLink: "https://defi-optimizer.example.com",
     githubLink: "https://github.com/rudra/defi-optimizer",
-    image: "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=400"
+    image: "/images/projects/NebulaDAO.png"
   },
   {
     id: 2,
