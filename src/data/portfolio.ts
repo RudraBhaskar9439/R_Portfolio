@@ -1,8 +1,9 @@
 export const personalInfo = {
   name: "Rudra",
-  title: "Blockchain, Web3, and AI Enthusiast",
+  title: "Machine Learning, Web3, and AI Agents",
   bio: "Passionate about building the future of decentralized technologies and artificial intelligence. I love creating innovative solutions that bridge the gap between complex blockchain concepts and user-friendly applications.",
-  email: "rudra@example.com",
+  email: "rbrudra9439.com",
+  cv: "/images/projects/Rudra_CV.pdf",
   social: {
     github: "https://github.com/RudraBhaskar9439",
     twitter: "https://x.com/Rudra9439",
@@ -44,12 +45,17 @@ export const skills = [
     ]
   },
   {
-    category: "AI/ML",
+    category: "Machine Learning",
     items: [
-      { name: "TensorFlow", level: 75 },
-      { name: "PyTorch", level: 70 },
-      { name: "OpenAI API", level: 85 },
+      { name: "Numpy", level: 75 },
+      { name: "Pandas", level: 70 },
+      { name: "Scikit-learn", level: 85 },
       { name: "Langchain", level: 80 },
+      { name: "LangGraph", level: 75 },
+      { name: "MCP Severs", level: 70 },
+      { name: "Gen AI", level: 70 },
+
+
     ]
   }
 ];
@@ -189,21 +195,21 @@ export const journey = [
     achievements: ["Upcoming"]
   },
   {
-    year: "May 2025",
+    year: "May2025",
     title: "Chainlink Chromion Hackathon",
     description: "Developing a RWA protocol that provides loans taking RWA as collateral.",
     icon: "⛓️",
     achievements: ["Tokenized Real-World Assets,Lending with automated EMI payments setup,Built using Chainlink's CCIP and Automation"]
   },
   {
-    year: "March 2025",
+    year: "March2025",
     title: "Nebula DAO",
     description: "Project bringing smooth, minimal, and efficient on-chain governance to life.Built with a modern tech stack & powered by on-chain voting using ERC20Votes!",
     icon: "🌐",
     achievements: ["First Hackathon DApp deployment", "Contributed to major DeFi protocol"]
   },
   {
-    year: "Jan 2025",
+    year: "Jan2025",
     title: "LNMHacks 7.0 Hackathon",
     description: "Participated in my first hackathon, collaborating with a team to build a dapp in 72 hours.",
     icon: "🎓",
@@ -219,7 +225,7 @@ export const journey = [
 ];
 export const statistics = [
   {
-    value: "10+",
+    value: "15+",
     label: "Projects Completed",
   },
   {
@@ -227,11 +233,11 @@ export const statistics = [
     label: "Years Experience",
   },
   {
-    value: "250+",
+    value: "300+",
     label: "GitHub Contributions",
   },
   {
-    value: "80+",
+    value: "1000+",
     label: "Article Views",
   }
 ];
