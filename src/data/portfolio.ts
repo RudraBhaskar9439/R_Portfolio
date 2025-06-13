@@ -108,36 +108,36 @@ export const projects = [
     name: "Nebula DAO",
     description: "project bringing smooth, minimal, and efficient on-chain governance to life.Built with a modern tech stack & powered by on-chain voting using ERC20Votes!",
     techStack: ['React', 'Typescript', 'Tailwind CSS', 'Next JS', 'Solidity', 'Ether JS'],
-    liveLink: "https://defi-optimizer.example.com",
-    githubLink: "https://github.com/rudra/defi-optimizer",
+    liveLink: "https://nebula-dao-three.vercel.app/",
+    githubLink: "https://github.com/arijitroy667/NebulaDAO",
     image: "/images/projects/NebulaDAO.png"
   },
   {
     id: 2,
-    name: "AI-Powered Trading Bot",
-    description: "Machine learning trading bot that analyzes market sentiment and executes trades automatically.",
-    techStack: ["Python", "TensorFlow", "FastAPI", "PostgreSQL"],
-    liveLink: "https://trading-bot.example.com",
-    githubLink: "https://github.com/rudra/ai-trading-bot",
-    image: "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=400"
+    title: 'ETH Bridge',
+    description: 'DAPP(Decentralized Application) made for sending and receiving transaction from one crypto wallet to other',
+    techStack: ['React', 'Firebase', 'Tailwind CSS', 'Solidity', 'Ether JS'],
+    liveLink: "https://eth-bridge-opal.vercel.app/",
+    githubLink: "https://github.com/RudraBhaskar9439/EthBridge",
+    image: "/images/projects/ET.png"
   },
   {
     id: 3,
-    name: "NFT Marketplace",
-    description: "Decentralized marketplace for buying, selling, and minting NFTs with low gas fees.",
-    techStack: ["Solidity", "React", "IPFS", "Polygon"],
-    liveLink: "https://nft-marketplace.example.com",
-    githubLink: "https://github.com/rudra/nft-marketplace",
-    image: "https://images.pexels.com/photos/7567529/pexels-photo-7567529.jpeg?auto=compress&cs=tinysrgb&w=400"
+    name: "Weather Dashboard",
+    description: "A weather application that displays current weather and forecasts for multiple locations with interactive maps.",
+    techStack: ['JavaScript', 'API', 'CSS'],
+    liveLink: "https://weather-app-six-eta-54.vercel.app/",
+    githubLink: "https://github.com/RudraBhaskar9439/EthBridge",
+    image: "/images/projects/Weather.png"
   },
   {
     id: 4,
-    name: "Blockchain Explorer",
-    description: "Real-time blockchain explorer with advanced analytics and transaction monitoring.",
-    techStack: ["Next.js", "TypeScript", "GraphQL", "Redis"],
-    liveLink: "https://blockchain-explorer.example.com",
-    githubLink: "https://github.com/rudra/blockchain-explorer",
-    image: "https://images.pexels.com/photos/6804580/pexels-photo-6804580.jpeg?auto=compress&cs=tinysrgb&w=400"
+    name: "Netflix Clone",
+    description: "My First ever prject Clone of frontend page of Netflix, Build using HTML and CSS",
+    techStack: ['HTML', 'CSS'],
+    liveLink: "https://netflix-clone-rouge-three.vercel.app/",
+    githubLink: "https://github.com/RudraBhaskar9439/Netflix-Clone",
+    image: "/images/projects/Netflix.png"
   }
 ];
 
@@ -182,38 +182,38 @@ export const articles = [
 
 export const journey = [
   {
-    year: "2024",
-    title: "AI Integration Phase",
-    description: "Started integrating AI capabilities into blockchain projects",
+    year: "Jul 2025",
+    title: "Uniswap Hook Incubator 6",
+    description: "Selected for the Uniswap Hook Incubator 6, building a DeFi protocol on Uniswap V4.",
     icon: "🤖",
-    achievements: ["Launched AI-powered DeFi protocol", "Speaking at Web3 conferences"]
+    achievements: ["Upcoming"]
   },
   {
-    year: "2023",
-    title: "Blockchain Mastery",
-    description: "Became a senior blockchain developer and team lead",
+    year: "May 2025",
+    title: "Chainlink Chromion Hackathon",
+    description: "Developing a RWA protocol that provides loans taking RWA as collateral.",
     icon: "⛓️",
-    achievements: ["Led team of 8 developers", "Deployed contracts with $10M+ TVL"]
+    achievements: ["Tokenized Real-World Assets,Lending with automated EMI payments setup,Built using Chainlink's CCIP and Automation"]
   },
   {
-    year: "2022",
-    title: "Web3 Transition",
-    description: "Transitioned from traditional web development to Web3",
+    year: "March 2025",
+    title: "Nebula DAO",
+    description: "Project bringing smooth, minimal, and efficient on-chain governance to life.Built with a modern tech stack & powered by on-chain voting using ERC20Votes!",
     icon: "🌐",
-    achievements: ["First DApp deployment", "Contributed to major DeFi protocol"]
+    achievements: ["First Hackathon DApp deployment", "Contributed to major DeFi protocol"]
   },
   {
-    year: "2021",
-    title: "Graduate Studies",
-    description: "Completed Master's degree with focus on distributed systems",
+    year: "Jan 2025",
+    title: "LNMHacks 7.0 Hackathon",
+    description: "Participated in my first hackathon, collaborating with a team to build a dapp in 72 hours.",
     icon: "🎓",
-    achievements: ["Published research paper", "Graduated with honors"]
+    achievements: ["Developed a decentralized Chess game","With betting and ranking system","Made with Move on Aptos chain"]
   },
   {
-    year: "2020",
-    title: "First Developer Role",
-    description: "Started career as a full-stack developer",
+    year: "2024",
+    title: "Member of Cipher club",
+    description: "Joined the Cipher club, a community of top developers and tech enthusiasts. Engaged in exclusive workshops and networking events.",
     icon: "💻",
-    achievements: ["Built first production app", "Learned modern web technologies"]
+    achievements: ["Organized 2 Hands-on workshops on ERC-20 tokens","Organized Roastathon event with senior developer", "Learnt blockchain basics to foundry development @EVM"]
   }
 ];
