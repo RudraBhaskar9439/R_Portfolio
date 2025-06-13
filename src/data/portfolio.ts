@@ -4,9 +4,9 @@ export const personalInfo = {
   bio: "Passionate about building the future of decentralized technologies and artificial intelligence. I love creating innovative solutions that bridge the gap between complex blockchain concepts and user-friendly applications.",
   email: "rudra@example.com",
   social: {
-    github: "https://github.com/rudra",
-    twitter: "https://twitter.com/rudra",
-    linkedin: "https://linkedin.com/in/rudra",
+    github: "https://github.com/RudraBhaskar9439",
+    twitter: "https://x.com/Rudra9439",
+    linkedin: "https://www.linkedin.com/in/rudra-bhaskar/",
   }
 };
 
@@ -14,28 +14,33 @@ export const skills = [
   {
     category: "Frontend",
     items: [
-      { name: "React", level: 90 },
-      { name: "TypeScript", level: 85 },
-      { name: "Next.js", level: 80 },
+      { name: "HTML/CSS", level: 90 },
+      { name: "JavaScript", level: 85 },
+      { name: "React.js", level: 80 },
       { name: "Tailwind CSS", level: 95 },
     ]
   },
   {
     category: "Backend",
     items: [
-      { name: "Node.js", level: 85 },
+      { name: "Node.js", level: 65 },
       { name: "Python", level: 80 },
-      { name: "GraphQL", level: 75 },
-      { name: "PostgreSQL", level: 70 },
+      { name: "Next.js", level: 55 },
+      // { name: "PostgreSQL", level: 70 },
     ]
   },
   {
     category: "Blockchain",
     items: [
       { name: "Solidity", level: 85 },
-      { name: "Web3.js", level: 80 },
-      { name: "Ethereum", level: 90 },
+      { name: "Ether.js", level: 80 },
+      // { name: "Ethereum", level: 90 },
+      // { name: "Smart Contracts", level: 85 },
+      { name: "Foundry", level: 85 },
+      { name: "Uniswap", level: 75 },
       { name: "Smart Contracts", level: 85 },
+
+
     ]
   },
   {
@@ -51,50 +56,50 @@ export const skills = [
 
 export const experiences = [
   {
-    title: "Senior Blockchain Developer",
-    company: "Web3 Innovations Inc.",
-    duration: "2023 - Present",
-    description: "Leading the development of DeFi protocols and smart contract architecture. Built and deployed multiple DApps with over $10M TVL.",
+    title: "Smart Contract Developer",
+    company: "Chromion Hackathon",
+    duration: "June 2025",
+    description: "Tokenized Real-World-Assets into NFTs \n Multitoken loan repayment taken cross-chain (via CCIP) \n Automated loan repayments using Chainlink Automation",
     icon: "💼"
   },
   {
     title: "Full Stack Developer",
-    company: "TechCorp Solutions",
-    duration: "2021 - 2023",
-    description: "Developed scalable web applications using React, Node.js, and cloud technologies. Implemented AI-powered features for enhanced user experience.",
+    company: "LNMHacks 7.0 Hackathon",
+    duration: "Jan 2025",
+    description: "Dual chess betting onchain \n Purely based on skills and confidence \n Deployed on Aptos testnet using Move",
     icon: "💻"
   },
-  {
-    title: "Junior Developer",
-    company: "StartupTech",
-    duration: "2020 - 2021",
-    description: "Started career building responsive web applications and learning modern development practices. Contributed to multiple client projects.",
-    icon: "🚀"
-  }
+  // {
+  //   title: "Junior Developer",
+  //   company: "StartupTech",
+  //   duration: "2020 - 2021",
+  //   description: "Started career building responsive web applications and learning modern development practices. Contributed to multiple client projects.",
+  //   icon: "🚀"
+  // }
 ];
 
 export const education = [
   {
-    degree: "M.S. Computer Science",
-    institution: "Stanford University",
-    duration: "2019 - 2021",
-    description: "Specialized in Machine Learning and Distributed Systems. Thesis on blockchain scalability solutions.",
+    degree: "Bachelor of Science in Electronics and Communications",
+    institution: "The LNM Institute of Information Technology",
+    duration: "2024 - present",
+    description: "Specializing in Machine Learning and AI Agents. Research on blockchain scalability solutions.",
     icon: "🎓"
   },
-  {
-    degree: "B.S. Computer Engineering",
-    institution: "MIT",
-    duration: "2015 - 2019",
-    description: "Graduated Magna Cum Laude. Focus on algorithms, data structures, and software engineering principles.",
-    icon: "🎓"
-  },
-  {
-    degree: "High School Diploma",
-    institution: "Tech High School",
-    duration: "2011 - 2015",
-    description: "Valedictorian. Early exposure to programming and computer science fundamentals.",
-    icon: "📚"
-  }
+  // {
+  //   degree: "B.S. Computer Engineering",
+  //   institution: "MIT",
+  //   duration: "2015 - 2019",
+  //   description: "Graduated Magna Cum Laude. Focus on algorithms, data structures, and software engineering principles.",
+  //   icon: "🎓"
+  // },
+  // {
+  //   degree: "High School Diploma",
+  //   institution: "Tech High School",
+  //   duration: "2011 - 2015",
+  //   description: "Valedictorian. Early exposure to programming and computer science fundamentals.",
+  //   icon: "📚"
+  // }
 ];
 
 export const projects = [

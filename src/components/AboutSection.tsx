@@ -33,9 +33,7 @@ const AboutSection: React.FC = () => {
                 {personalInfo.bio}
               </p>
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                With over 5 years of experience in software development and 3 years specializing in blockchain technology, 
-                I've had the privilege of working on cutting-edge projects that push the boundaries of what's possible 
-                in the decentralized world.
+               Aspiring B.Tech undergraduate student in Electronics and Communication Engineering with a keen interest in blockchain and DeFi. Skilled in problem-solving, frontend development, and smart contract concepts. Eager to contribute to innovative fintech solutions with a strong work ethic and passion for technology.
               </p>
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
                 When I'm not coding, you can find me exploring the latest developments in AI, contributing to open-source 
