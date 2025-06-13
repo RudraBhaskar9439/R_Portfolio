@@ -3,7 +3,7 @@ export const personalInfo = {
   title: "Machine Learning, Web3, and AI Agents",
   bio: "Passionate about building the future of decentralized technologies and artificial intelligence. I love creating innovative solutions that bridge the gap between complex blockchain concepts and user-friendly applications.",
   email: "rbrudra9439.com",
-  cv: "/images/projects/Rudra_CV.pdf",
+  cv: "/images/projects/RudraCV.pdf",
   social: {
     github: "https://github.com/RudraBhaskar9439",
     twitter: "https://x.com/Rudra9439",
