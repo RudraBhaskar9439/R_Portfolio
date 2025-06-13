@@ -10,6 +10,7 @@ import JourneySection from './components/JourneySection';
 import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
 import ThemeToggle from './components/ThemeToggle';
+import StatisticsSection from './components/StatisticsSection';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <ProjectsSection />
         <ArticlesSection />
         <JourneySection />
+        <StatisticsSection />
         <ContactSection />
         <Footer />
       </div>

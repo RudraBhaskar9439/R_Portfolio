@@ -217,3 +217,21 @@ export const journey = [
     achievements: ["Organized 2 Hands-on workshops on ERC-20 tokens","Organized Roastathon event with senior developer", "Learnt blockchain basics to foundry development @EVM"]
   }
 ];
+export const statistics = [
+  {
+    value: "10+",
+    label: "Projects Completed",
+  },
+  {
+    value: "1+",
+    label: "Years Experience",
+  },
+  {
+    value: "250+",
+    label: "GitHub Contributions",
+  },
+  {
+    value: "80+",
+    label: "Article Views",
+  }
+];
