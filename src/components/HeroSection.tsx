@@ -62,7 +62,7 @@ const HeroSection: React.FC = () => {
           </p>
           
           <p className="text-lg text-gray-500 dark:text-gray-400 mb-12 max-w-2xl mx-auto animate-fade-in">
-            Building the future of decentralized technologies with a passion for innovation and clean code.
+            Building AI solutions and decentralized applications with a focus on innovation and impact. Passionate about blockchain, DeFi, and creating user-centric experiences.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-16">

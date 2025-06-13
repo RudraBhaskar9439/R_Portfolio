@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
               Rudra
             </h3>
             <p className="text-gray-300 mb-4">
-              Blockchain, Web3, and AI enthusiast building the future of decentralized technologies.
+              Blockchain and AI building the future of decentralized technologies.
             </p>
             <div className="flex space-x-4">
               <a
