@@ -209,7 +209,7 @@ export const articles = [
     tags: ["AI", "Machine Learning"],
     date: "2025-06-14",
     readTime: "8 min read",
-    thumbnail: "/images/projects/audioda.png",
+    thumbnail: "/images/projects/audio.png",
     mediumLink: "https://medium.com/@rbrudra9439/intelligent-audio-processing-leveraging-gemini-ai-for-audio-analysis-and-transcription-afb2ef52fb9d" 
   },
   {
