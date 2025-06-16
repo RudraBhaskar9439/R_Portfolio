@@ -17,10 +17,10 @@ const AboutSection: React.FC = () => {
             <div className="space-y-6">
               <div className="relative">
                 <img
-                  src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400"
-                  alt="Profile"
-                  className="w-80 h-80 object-cover rounded-2xl shadow-2xl mx-auto lg:mx-0"
-                />
+  src="/images/profile/RudraNew.jpeg" // Update this path to match your image
+  alt="Rudra Bhaskar"
+  className="w-80 h-80 object-cover rounded-2xl shadow-2xl mx-auto lg:mx-0"
+/>
                 <div className="absolute inset-0 bg-gradient-to-tr from-primary-500/20 to-purple-500/20 rounded-2xl"></div>
               </div>
             </div>
