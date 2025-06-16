@@ -158,7 +158,7 @@ export const statistics = [
     label: "GitHub Contributions",
   },
   {
-    value: "1000+",
+    value: "1200+",
     label: "Article Views",
   }
 ];

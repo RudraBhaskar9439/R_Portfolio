@@ -66,12 +66,15 @@ const HeroSection: React.FC = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-16">
-            <button className="group px-8 py-3 bg-gradient-to-r from-primary-600 to-purple-600 text-white rounded-full font-medium hover:from-primary-700 hover:to-purple-700 transition-all duration-300 hover:scale-105 hover:shadow-xl animate-slide-left">
-              <div className="flex items-center space-x-2">
-                <Download className="h-5 w-5 group-hover:animate-bounce" />
-                <span>Download CV</span>
-              </div>
-            </button>
+            <button 
+  onClick={() => window.open('/images/projects/RudraCV.pdf', '_blank')}
+  className="group px-8 py-3 bg-gradient-to-r from-primary-600 to-purple-600 text-white rounded-full font-medium hover:from-primary-700 hover:to-purple-700 transition-all duration-300 hover:scale-105 hover:shadow-xl animate-slide-left"
+>
+  <div className="flex items-center space-x-2">
+    <Download className="h-5 w-5 group-hover:animate-bounce"/>
+    <span>Download CV</span>
+  </div>
+</button>
             
             <div className="flex items-center space-x-4 animate-slide-right">
               <a
