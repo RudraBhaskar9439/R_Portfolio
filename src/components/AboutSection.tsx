@@ -1,7 +1,7 @@
 import React from 'react';
 import { personalInfo, skills } from '../data/portfolio';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
-import profileImage from '../../public/images/profile/RudraNew.jpeg';
+import profileImage from '../../public/images/projects/RudraNew.jpeg';
 
 const AboutSection: React.FC = () => {
   const { ref, isVisible } = useScrollAnimation();
@@ -19,6 +19,7 @@ const AboutSection: React.FC = () => {
               <div className="relative">
                 <img
   src={profileImage} 
+
   alt="Rudra Bhaskar"
   className="w-80 h-80 object-cover rounded-2xl shadow-2xl mx-auto lg:mx-0"
 />
