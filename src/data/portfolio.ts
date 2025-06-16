@@ -209,7 +209,7 @@ export const articles = [
     tags: ["AI", "Machine Learning"],
     date: "2025-06-14",
     readTime: "8 min read",
-    thumbnail: "/images/projects/audioda.jpg",
+    thumbnail: "/images/projects/audioda.png",
     mediumLink: "https://medium.com/@rbrudra9439/intelligent-audio-processing-leveraging-gemini-ai-for-audio-analysis-and-transcription-afb2ef52fb9d" 
   },
   {
@@ -219,7 +219,7 @@ export const articles = [
     tags: ["Smart Contract", "Blockchain"],
     date: "2025-03-11",
     readTime: "12 min read",
-    thumbnail: "/images/projects/dapp.jpg",
+    thumbnail: "/images/projects/dapp.png",
     mediumLink: "https://medium.com/coinsbench/dapp-crowdfunding-smart-contract-96605fe8636a"
   },
   {
@@ -229,7 +229,7 @@ export const articles = [
     tags: ["AI", "Machine Learning"],
     date: "2025-05-19",
     readTime: "9 min read",
-    thumbnail: "/images/projects/chatbot.jpg",
+    thumbnail: "/images/projects/chatbot.png",
     mediumLink: "https://medium.com/@rbrudra9439/pdf-chatbot-that-dont-forget-using-pickle-for-persistent-chat-ebe6594431bf"
   },
   {
@@ -240,7 +240,7 @@ export const articles = [
     tags: ["AI", "Machine Learning"],
     date: "2025-06-03",
     readTime: "10 min read",
-    thumbnail: "/images/projects/vision.jpg",
+    thumbnail: "/images/projects/vision.png",
     mediumLink: "https://medium.com/@rbrudra9439/talk-to-your-images-analyze-and-compare-with-gemini-vision-in-python-50b8d8286adb"
   },
   {
@@ -250,7 +250,7 @@ export const articles = [
     tags: ["AI", "Machine Learning", "Future"],
     date: "2025-05-27",
     readTime: "10 min read",
-    thumbnail: "/images/projects/planner.jpg",
+    thumbnail: "/images/projects/planner.png",
     mediumLink: "https://medium.com/@rbrudra9439/from-prompt-to-planner-building-an-ai-based-meeting-scheduler-with-local-persistence-35c660808201"
   },
   {
@@ -260,7 +260,7 @@ export const articles = [
     tags: ["AI", "Machine Learning", ],
     date: "2025-05-26",
     readTime: "10 min read",
-    thumbnail: "/images/projects/weatherchatbot.jpg",
+    thumbnail: "/images/projects/weatherchatbot.png",
     mediumLink: "https://medium.com/@rbrudra9439/building-an-ai-powered-weather-chatbot-using-gemini-2-0-flash-and-weather-api-e9e42eebe919"
   },
     {
@@ -270,7 +270,7 @@ export const articles = [
     tags: ["Blockchain", "Smart Contract"],
     date: "2025-05-19",
     readTime: "10 min read",
-    thumbnail: "/images/projects/nft.jpg",
+    thumbnail: "/images/projects/nft.png",
     mediumLink: "https://medium.com/coinsbench/exploring-erc-721-the-blockchain-standard-behind-nfts-4b2f8bd50ec2"
   },
     {
@@ -280,7 +280,7 @@ export const articles = [
     tags: ["Web3","AI"],
     date: "",
     readTime: "",
-    thumbnail: "/images/projects/medium.jpg",
+    thumbnail: "/images/projects/medium.png",
     mediumLink: "https://medium.com/@rbrudra9439"
   }
 ];
