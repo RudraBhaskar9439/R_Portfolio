@@ -229,7 +229,7 @@ export const articles = [
     tags: ["AI", "Machine Learning"],
     date: "2025-05-19",
     readTime: "9 min read",
-    thumbnail: "/images/projects/chatbot.png",
+    thumbnail: "/images/projects/Chatbot.png",
     mediumLink: "https://medium.com/@rbrudra9439/pdf-chatbot-that-dont-forget-using-pickle-for-persistent-chat-ebe6594431bf"
   },
   {
