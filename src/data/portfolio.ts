@@ -150,12 +150,13 @@ export const projects = [
 export const articles = [
   {
     id: 1,
-    title: "Understanding Layer 2 Scaling Solutions",
-    preview: "A comprehensive guide to Ethereum's Layer 2 ecosystem, covering rollups, sidechains, and state channels.",
-    tags: ["Web3", "Ethereum", "Scaling"],
+    title: "Intelligent Audio Processing: Leveraging Gemini AI for Audio Analysis and Transcription",
+    preview: "This Python script is a command-line tool that uses Google Gemini AI to analyze and transcribe audio files.",
+    tags: ["AI", "Machine Learning"],
     date: "2024-01-15",
     readTime: "8 min read",
-    thumbnail: "https://images.pexels.com/photos/6801648/pexels-photo-6801648.jpeg?auto=compress&cs=tinysrgb&w=400"
+    thumbnail: "https://images.pexels.com/photos/6801648/pexels-photo-6801648.jpeg?auto=compress&cs=tinysrgb&w=400",
+    mediumLink: "https://medium.com/@rbrudra9439/intelligent-audio-processing" // Add your actual Medium article link
   },
   {
     id: 2,
@@ -164,7 +165,8 @@ export const articles = [
     tags: ["Tutorial", "React", "Web3"],
     date: "2024-01-08",
     readTime: "12 min read",
-    thumbnail: "https://images.pexels.com/photos/11035380/pexels-photo-11035380.jpeg?auto=compress&cs=tinysrgb&w=400"
+    thumbnail: "https://images.pexels.com/photos/11035380/pexels-photo-11035380.jpeg?auto=compress&cs=tinysrgb&w=400",
+    mediumLink: "https://medium.com/@rbrudra9439/building-your-first-dapp" // Add your actual Medium article link
   },
   {
     id: 3,
@@ -173,7 +175,8 @@ export const articles = [
     tags: ["AI", "Blockchain", "Future"],
     date: "2024-01-01",
     readTime: "6 min read",
-    thumbnail: "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=400"
+    thumbnail: "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=400",
+    mediumLink: "https://medium.com/@rbrudra9439/future-of-ai-in-blockchain" // Add your actual Medium article link
   },
   {
     id: 4,
@@ -182,7 +185,8 @@ export const articles = [
     tags: ["Security", "Smart Contracts", "Best Practices"],
     date: "2023-12-20",
     readTime: "10 min read",
-    thumbnail: "https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg?auto=compress&cs=tinysrgb&w=400"
+    thumbnail: "https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg?auto=compress&cs=tinysrgb&w=400",
+    mediumLink: "https://medium.com/@rbrudra9439/smart-contract-security" // Add your actual Medium article link
   }
 ];
 

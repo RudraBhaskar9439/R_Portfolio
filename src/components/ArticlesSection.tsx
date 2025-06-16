@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Calendar, Clock, Tag } from 'lucide-react';
+import { Calendar, Clock, Tag, ArrowUpRight } from 'lucide-react';
 import { articles } from '../data/portfolio';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 
@@ -71,69 +71,70 @@ const ArticlesSection: React.FC = () => {
 
           <div className="grid md:grid-cols-2 gap-6">
             {filteredAndSortedArticles.map((article, index) => (
-              <article
+              <a
                 key={article.id}
-                className={`bg-white dark:bg-gray-900 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-500 ${
-                  isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
-                }`}
-                style={{ transitionDelay: `${index * 200}ms` }}
+                href={article.mediumLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block group hover:no-underline"
               >
-                {/* Article Thumbnail */}
-                <div className="relative overflow-hidden h-48">
-                  <img
-                    src={article.thumbnail}
-                    alt={article.title}
-                    className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
-                  <div className="absolute bottom-4 left-4 right-4">
-                    <div className="flex flex-wrap gap-1">
-                      {article.tags.slice(0, 2).map(tag => (
-                        <span
-                          key={tag}
-                          className="inline-flex items-center space-x-1 px-2 py-1 bg-primary-600/80 backdrop-blur-sm text-white text-xs rounded-full"
-                        >
-                          <Tag className="h-3 w-3" />
-                          <span>{tag}</span>
-                        </span>
-                      ))}
+                <article
+                  className={`bg-white dark:bg-gray-900 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-500 ${
+                    isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
+                  }`}
+                  style={{ transitionDelay: `${index * 200}ms` }}
+                >
+                  {/* Article Thumbnail */}
+                  <div className="relative overflow-hidden h-48">
+                    <img
+                      src={article.thumbnail}
+                      alt={article.title}
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+                    <div className="absolute bottom-4 left-4 right-4">
+                      <div className="flex flex-wrap gap-1">
+                        {article.tags.slice(0, 2).map(tag => (
+                          <span
+                            key={tag}
+                            className="inline-flex items-center space-x-1 px-2 py-1 bg-primary-600/80 backdrop-blur-sm text-white text-xs rounded-full"
+                          >
+                            <Tag className="h-3 w-3" />
+                            <span>{tag}</span>
+                          </span>
+                        ))}
+                      </div>
                     </div>
                   </div>
-                </div>
-                
-                <div className="p-6">
-                  <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-3 hover:text-primary-600 dark:hover:text-primary-400 cursor-pointer transition-colors">
-                    {article.title}
-                  </h3>
                   
-                  <p className="text-gray-600 dark:text-gray-300 mb-4 leading-relaxed">
-                    {article.preview}
-                  </p>
-                  
-                  <div className="flex flex-wrap gap-2 mb-4">
-                    {article.tags.map(tag => (
-                      <span
-                        key={tag}
-                        className="inline-flex items-center space-x-1 px-2 py-1 bg-primary-100 dark:bg-primary-900 text-primary-700 dark:text-primary-300 text-xs rounded-full"
-                      >
-                        <Tag className="h-3 w-3" />
-                        <span>{tag}</span>
-                      </span>
-                    ))}
-                  </div>
-                  
-                  <div className="flex items-center justify-between text-sm text-gray-500 dark:text-gray-400">
-                    <div className="flex items-center space-x-1">
-                      <Calendar className="h-4 w-4" />
-                      <span>{formatDate(article.date)}</span>
+                  <div className="p-6">
+                    <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-3 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">
+                      {article.title}
+                    </h3>
+                    
+                    <p className="text-gray-600 dark:text-gray-300 mb-4 leading-relaxed">
+                      {article.preview}
+                    </p>
+
+                    {/* Read on Medium Button */}
+                    <div className="flex items-center space-x-2 text-primary-600 dark:text-primary-400 mb-4 group-hover:underline">
+                      <span>Read on Medium</span>
+                      <ArrowUpRight className="h-4 w-4" />
                     </div>
-                    <div className="flex items-center space-x-1">
-                      <Clock className="h-4 w-4" />
-                      <span>{article.readTime}</span>
+                    
+                    <div className="flex items-center justify-between text-sm text-gray-500 dark:text-gray-400">
+                      <div className="flex items-center space-x-1">
+                        <Calendar className="h-4 w-4" />
+                        <span>{formatDate(article.date)}</span>
+                      </div>
+                      <div className="flex items-center space-x-1">
+                        <Clock className="h-4 w-4" />
+                        <span>{article.readTime}</span>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </article>
+                </article>
+              </a>
             ))}
           </div>
           
