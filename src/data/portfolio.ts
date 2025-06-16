@@ -207,60 +207,81 @@ export const articles = [
     title: "Intelligent Audio Processing: Leveraging Gemini AI for Audio Analysis and Transcription",
     preview: "This Python script is a command-line tool that uses Google Gemini AI to analyze and transcribe audio files.",
     tags: ["AI", "Machine Learning"],
-    date: "2024-01-15",
+    date: "2025-06-14",
     readTime: "8 min read",
     thumbnail: "/images/projects/audio-processing.jpg",
     mediumLink: "https://medium.com/@rbrudra9439/intelligent-audio-processing-leveraging-gemini-ai-for-audio-analysis-and-transcription-afb2ef52fb9d" 
   },
   {
     id: 2,
-    title: "Building Your First DApp with React and Web3",
-    preview: "Step-by-step tutorial on creating a decentralized application from scratch using modern web technologies.",
-    tags: ["Tutorial", "React", "Web3"],
-    date: "2024-01-08",
+    title: "DAPP: Crowdfunding Smart Contract",
+    preview: "Step-by-step tutorial on creating a Crowdfunding Smart Contract using Solidity.",
+    tags: ["Tutorial", "Blockchain", "Web3","Smart Contracts"],
+    date: "2025-03-11",
     readTime: "12 min read",
     thumbnail: "/images/projects/dapp-tutorial.jpg",
-    mediumLink: "https://medium.com/@rbrudra9439/building-your-first-dapp"
+    mediumLink: "https://medium.com/coinsbench/dapp-crowdfunding-smart-contract-96605fe8636a"
   },
   {
     id: 3,
-    title: "The Future of AI in Blockchain",
-    preview: "Exploring the intersection of artificial intelligence and blockchain technology, and what it means for the future.",
-    tags: ["AI", "Blockchain", "Future"],
-    date: "2024-01-01",
-    readTime: "6 min read",
+    title: "PDF Chatbot That Don’t Forget: Using Pickle for Persistent Chat",
+    preview: "Ever wondered how to build your own local AI assistant that can read your PDFs, remember your conversations, and answer your questions contextually using Gemini and Sentence Transformers? Here’s a complete walkthrough",
+    tags: ["AI", "Machine Learning"],
+    date: "2025-05-19",
+    readTime: "9 min read",
     thumbnail: "/images/projects/ai-blockchain.jpg",
-    mediumLink: "https://medium.com/@rbrudra9439/future-of-ai-in-blockchain"
+    mediumLink: "https://medium.com/@rbrudra9439/pdf-chatbot-that-dont-forget-using-pickle-for-persistent-chat-ebe6594431bf"
   },
   {
     id: 4,
-    title: "Smart Contract Security Best Practices",
-    preview: "Essential security considerations when developing smart contracts, including common vulnerabilities and how to avoid them.",
-    tags: ["Security", "Smart Contracts", "Best Practices"],
-    date: "2023-12-20",
+    title: "Talk to Your Images: Analyze and Compare with Gemini Vision in Python",
+    preview: "Command-line tool in Python that uses Google’s Gemini Pro Vision API to analyze and compare images. With support for custom prompts and multiple image formats, the tool enables fast, AI-powered image understanding directly from your terminal."
+,
+    tags: ["AI", "Machine Learning"],
+    date: "2025-06-03",
     readTime: "10 min read",
     thumbnail: "/images/projects/smart-contract-security.jpg",
-    mediumLink: "https://medium.com/@rbrudra9439/smart-contract-security"
+    mediumLink: "https://medium.com/@rbrudra9439/talk-to-your-images-analyze-and-compare-with-gemini-vision-in-python-50b8d8286adb"
   },
   {
-    id: 3,
-    title: "The Future of AI in Blockchain",
-    preview: "Exploring the intersection of artificial intelligence and blockchain technology, and what it means for the future.",
-    tags: ["AI", "Blockchain", "Future"],
-    date: "2024-01-01",
-    readTime: "6 min read",
+    id: 5,
+    title: "From Prompt to Planner: Building an AI-Based Meeting Scheduler with Local Persistence",
+    preview: "A smart meeting management system that leverages Gemini AI to:- Process natural language meeting requests- Maintain historical meeting records- Provide context-aware scheduling assistance Support persistent meeting history",
+    tags: ["AI", "Machine Learning", "Future"],
+    date: "2025-05-27",
+    readTime: "10 min read",
     thumbnail: "/images/projects/ai-blockchain.jpg",
-    mediumLink: "https://medium.com/@rbrudra9439/future-of-ai-in-blockchain"
+    mediumLink: "https://medium.com/@rbrudra9439/from-prompt-to-planner-building-an-ai-based-meeting-scheduler-with-local-persistence-35c660808201"
   },
   {
-    id: 4,
-    title: "Smart Contract Security Best Practices",
-    preview: "Essential security considerations when developing smart contracts, including common vulnerabilities and how to avoid them.",
-    tags: ["Security", "Smart Contracts", "Best Practices"],
-    date: "2023-12-20",
+    id: 6,
+    title: "Building an AI-Powered Weather Chatbot Using Gemini-2.0-flash and Weather API",
+    preview: "I have created a lightweight conversational weather chatbot that:Combines natural language understanding (via Gemini),With real-time weather data (via Weather API),To generate intelligent, conversational responses in the terminal.",
+    tags: ["AI", "Machine Learning", "Best Practices"],
+    date: "2025-05-26",
     readTime: "10 min read",
     thumbnail: "/images/projects/smart-contract-security.jpg",
-    mediumLink: "https://medium.com/@rbrudra9439/smart-contract-security"
+    mediumLink: "https://medium.com/@rbrudra9439/building-an-ai-powered-weather-chatbot-using-gemini-2-0-flash-and-weather-api-e9e42eebe919"
+  },
+    {
+    id: 7,
+    title: "Exploring ERC-721: The Blockchain Standard Behind NFTs",
+    preview: "I have created a lightweight conversational weather chatbot that:Combines natural language understanding (via Gemini),With real-time weather data (via Weather API),To generate intelligent, conversational responses in the terminal.",
+    tags: ["AI", "Machine Learning", "Best Practices"],
+    date: "2025-05-19",
+    readTime: "10 min read",
+    thumbnail: "/images/projects/smart-contract-security.jpg",
+    mediumLink: "https://medium.com/coinsbench/exploring-erc-721-the-blockchain-standard-behind-nfts-4b2f8bd50ec2"
+  },
+    {
+    id: 8,
+    title: "For more such Articles and Projects, visit my Medium Profile",
+    preview: "",
+    tags: ["AI", "Machine Learning", "Best Practices","Blockchain","Smart Contracts","Security","React","Web3"],
+    date: "",
+    readTime: "",
+    thumbnail: "/images/projects/smart-contract-security.jpg",
+    mediumLink: "https://medium.com/@rbrudra9439"
   }
 ];
 
