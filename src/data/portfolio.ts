@@ -107,7 +107,61 @@ export const education = [
   //   icon: "📚"
   // }
 ];
-
+export const journey = [
+  {
+    year: "Jul 2025",
+    title: "Uniswap Hook Incubator 6",
+    description: "Selected for the Uniswap Hook Incubator 6, building a DeFi protocol on Uniswap V4.",
+    icon: "🤖",
+    achievements: ["Upcoming"]
+  },
+  {
+    year: "May2025",
+    title: "Chainlink Chromion Hackathon",
+    description: "Developing a RWA protocol that provides loans taking RWA as collateral.",
+    icon: "⛓️",
+    achievements: ["Tokenized Real-World Assets,Lending with automated EMI payments setup,Built using Chainlink's CCIP and Automation"]
+  },
+  {
+    year: "March2025",
+    title: "Nebula DAO",
+    description: "Project bringing smooth, minimal, and efficient on-chain governance to life.Built with a modern tech stack & powered by on-chain voting using ERC20Votes!",
+    icon: "🌐",
+    achievements: ["First Hackathon DApp deployment", "Contributed to major DeFi protocol"]
+  },
+  {
+    year: "Jan2025",
+    title: "LNMHacks 7.0 Hackathon",
+    description: "Participated in my first hackathon, collaborating with a team to build a dapp in 72 hours.",
+    icon: "🎓",
+    achievements: ["Developed a decentralized Chess game","With betting and ranking system","Made with Move on Aptos chain"]
+  },
+  {
+    year: "2024",
+    title: "Member of Cipher club",
+    description: "Joined the Cipher club, a community of top developers and tech enthusiasts. Engaged in exclusive workshops and networking events.",
+    icon: "💻",
+    achievements: ["Organized 2 Hands-on workshops on ERC-20 tokens","Organized Roastathon event with senior developer", "Learnt blockchain basics to foundry development @EVM"]
+  }
+];
+export const statistics = [
+  {
+    value: "15+",
+    label: "Projects Completed",
+  },
+  {
+    value: "1+",
+    label: "Years Experience",
+  },
+  {
+    value: "300+",
+    label: "GitHub Contributions",
+  },
+  {
+    value: "1000+",
+    label: "Article Views",
+  }
+];
 export const projects = [
   {
     id: 1,
@@ -190,58 +244,4 @@ export const articles = [
   }
 ];
 
-export const journey = [
-  {
-    year: "Jul 2025",
-    title: "Uniswap Hook Incubator 6",
-    description: "Selected for the Uniswap Hook Incubator 6, building a DeFi protocol on Uniswap V4.",
-    icon: "🤖",
-    achievements: ["Upcoming"]
-  },
-  {
-    year: "May2025",
-    title: "Chainlink Chromion Hackathon",
-    description: "Developing a RWA protocol that provides loans taking RWA as collateral.",
-    icon: "⛓️",
-    achievements: ["Tokenized Real-World Assets,Lending with automated EMI payments setup,Built using Chainlink's CCIP and Automation"]
-  },
-  {
-    year: "March2025",
-    title: "Nebula DAO",
-    description: "Project bringing smooth, minimal, and efficient on-chain governance to life.Built with a modern tech stack & powered by on-chain voting using ERC20Votes!",
-    icon: "🌐",
-    achievements: ["First Hackathon DApp deployment", "Contributed to major DeFi protocol"]
-  },
-  {
-    year: "Jan2025",
-    title: "LNMHacks 7.0 Hackathon",
-    description: "Participated in my first hackathon, collaborating with a team to build a dapp in 72 hours.",
-    icon: "🎓",
-    achievements: ["Developed a decentralized Chess game","With betting and ranking system","Made with Move on Aptos chain"]
-  },
-  {
-    year: "2024",
-    title: "Member of Cipher club",
-    description: "Joined the Cipher club, a community of top developers and tech enthusiasts. Engaged in exclusive workshops and networking events.",
-    icon: "💻",
-    achievements: ["Organized 2 Hands-on workshops on ERC-20 tokens","Organized Roastathon event with senior developer", "Learnt blockchain basics to foundry development @EVM"]
-  }
-];
-export const statistics = [
-  {
-    value: "15+",
-    label: "Projects Completed",
-  },
-  {
-    value: "1+",
-    label: "Years Experience",
-  },
-  {
-    value: "300+",
-    label: "GitHub Contributions",
-  },
-  {
-    value: "1000+",
-    label: "Article Views",
-  }
-];
+
