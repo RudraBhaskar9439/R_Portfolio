@@ -21,10 +21,12 @@ function App() {
         <HeroSection />
         <AboutSection />
         <ExperienceSection />
-        <ProjectsSection />
-        <ArticlesSection />
         <JourneySection />
         <StatisticsSection />
+        <ProjectsSection />
+        <ArticlesSection />
+       
+       
         <ContactSection />
         <Footer />
       </div>

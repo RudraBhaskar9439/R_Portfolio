@@ -209,7 +209,7 @@ export const articles = [
     tags: ["AI", "Machine Learning"],
     date: "2024-01-15",
     readTime: "8 min read",
-    thumbnail: "https://images.pexels.com/photos/6801648/pexels-photo-6801648.jpeg?auto=compress&cs=tinysrgb&w=400",
+    thumbnail: "/images/projects/audio-processing.jpg",
     mediumLink: "https://medium.com/@rbrudra9439/intelligent-audio-processing-leveraging-gemini-ai-for-audio-analysis-and-transcription-afb2ef52fb9d" 
   },
   {
@@ -219,8 +219,8 @@ export const articles = [
     tags: ["Tutorial", "React", "Web3"],
     date: "2024-01-08",
     readTime: "12 min read",
-    thumbnail: "https://images.pexels.com/photos/11035380/pexels-photo-11035380.jpeg?auto=compress&cs=tinysrgb&w=400",
-    mediumLink: "https://medium.com/@rbrudra9439/building-your-first-dapp" // Add your actual Medium article link
+    thumbnail: "/images/projects/dapp-tutorial.jpg",
+    mediumLink: "https://medium.com/@rbrudra9439/building-your-first-dapp"
   },
   {
     id: 3,
@@ -229,8 +229,8 @@ export const articles = [
     tags: ["AI", "Blockchain", "Future"],
     date: "2024-01-01",
     readTime: "6 min read",
-    thumbnail: "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=400",
-    mediumLink: "https://medium.com/@rbrudra9439/future-of-ai-in-blockchain" // Add your actual Medium article link
+    thumbnail: "/images/projects/ai-blockchain.jpg",
+    mediumLink: "https://medium.com/@rbrudra9439/future-of-ai-in-blockchain"
   },
   {
     id: 4,
@@ -239,8 +239,28 @@ export const articles = [
     tags: ["Security", "Smart Contracts", "Best Practices"],
     date: "2023-12-20",
     readTime: "10 min read",
-    thumbnail: "https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg?auto=compress&cs=tinysrgb&w=400",
-    mediumLink: "https://medium.com/@rbrudra9439/smart-contract-security" // Add your actual Medium article link
+    thumbnail: "/images/projects/smart-contract-security.jpg",
+    mediumLink: "https://medium.com/@rbrudra9439/smart-contract-security"
+  },
+  {
+    id: 3,
+    title: "The Future of AI in Blockchain",
+    preview: "Exploring the intersection of artificial intelligence and blockchain technology, and what it means for the future.",
+    tags: ["AI", "Blockchain", "Future"],
+    date: "2024-01-01",
+    readTime: "6 min read",
+    thumbnail: "/images/projects/ai-blockchain.jpg",
+    mediumLink: "https://medium.com/@rbrudra9439/future-of-ai-in-blockchain"
+  },
+  {
+    id: 4,
+    title: "Smart Contract Security Best Practices",
+    preview: "Essential security considerations when developing smart contracts, including common vulnerabilities and how to avoid them.",
+    tags: ["Security", "Smart Contracts", "Best Practices"],
+    date: "2023-12-20",
+    readTime: "10 min read",
+    thumbnail: "/images/projects/smart-contract-security.jpg",
+    mediumLink: "https://medium.com/@rbrudra9439/smart-contract-security"
   }
 ];
 
