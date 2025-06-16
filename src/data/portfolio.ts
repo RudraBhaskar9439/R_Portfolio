@@ -156,7 +156,7 @@ export const articles = [
     date: "2024-01-15",
     readTime: "8 min read",
     thumbnail: "https://images.pexels.com/photos/6801648/pexels-photo-6801648.jpeg?auto=compress&cs=tinysrgb&w=400",
-    mediumLink: "https://medium.com/@rbrudra9439/intelligent-audio-processing" // Add your actual Medium article link
+    mediumLink: "https://medium.com/@rbrudra9439/intelligent-audio-processing-leveraging-gemini-ai-for-audio-analysis-and-transcription-afb2ef52fb9d" 
   },
   {
     id: 2,
