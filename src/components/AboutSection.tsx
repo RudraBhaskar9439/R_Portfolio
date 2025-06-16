@@ -17,7 +17,7 @@ const AboutSection: React.FC = () => {
             <div className="space-y-6">
               <div className="relative">
                 <img
-  src="/images/profile/RudraNew.jpeg" // Update this path to match your image
+  src="/images/profile/Rudra.jpeg" // Update this path to match your image
   alt="Rudra Bhaskar"
   className="w-80 h-80 object-cover rounded-2xl shadow-2xl mx-auto lg:mx-0"
 />
