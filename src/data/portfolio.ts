@@ -40,6 +40,7 @@ export const skills = [
       { name: "Foundry", level: 85 },
       { name: "Uniswap", level: 75 },
       { name: "Smart Contracts", level: 85 },
+      { name: "ChainLink", level: 75 },
 
 
     ]
@@ -163,6 +164,24 @@ export const statistics = [
   }
 ];
 export const projects = [
+  {
+    id: 1,
+    name: "TangibleFi",
+    description: "TangibleFi bridges real-world assets with DeFi by tokenizing physical items like real estate and equipment into NFTs, enabling them to be used as collateral for decentralized loans. With multi-chain support and automated EMI payments, users can manage loans seamlessly across blockchains.",
+    techStack: ['React', 'Typescript', 'Tailwind CSS', 'Next JS', 'Solidity', 'Ether JS','Solidity','Foundry','ChainLink'],
+    liveLink: "https://tangible-fi.vercel.app/",
+    githubLink: "https://github.com/kpj2006/TangibleFi",
+    image: "/images/projects/TangibleFi.png"
+  },
+  {
+    id: 1,
+    name: "BlockChain_Drive",
+    description: "ChainDrive is a decentralized application (DApp) that lets users upload images to IPFS and securely share access to those images with other Ethereum wallet addresses. It uses a smart contract for access control and Pinata for IPFS storage. Users can upload, view, and share images in a trustless, blockchain-powered way.",
+    techStack: ['React', 'Typescript', 'Tailwind CSS', 'Next JS', 'Solidity', 'Ether JS','Solidity'],
+    // liveLink: "https://nebula-dao-three.vercel.app/",
+    githubLink: "https://github.com/RudraBhaskar9439/BlockChain_Drive",
+    image: "/images/projects/Chain.png"
+  },
   {
     id: 1,
     name: "Nebula DAO",
